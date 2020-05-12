@@ -25,3 +25,6 @@ pip install SPARQLWrapper
 python test_dbpedia_query.py
 ```
 This script will write the response as well as the completed entities to a file so that if the process needs to be restarted we can skip the already fetched entities.
+
+Follow this blog for any problems:
+https://spark-in.me/post/parsing-wikipedia-in-four-commands-for-nlp
