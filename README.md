@@ -16,11 +16,11 @@ python3 WikiExtractor.py -o ../data/wiki/ -l --no_templates --processes 8 ../dat
 ```
 find ./ -name 'wiki*' | xargs grep -o -P "(<a href=\").*?\">" | sort -u > dbqueries.txt                                                                                                              
 ```
-## install for sparqlwrapper
+## Install for sparqlwrapper
 ```
 pip install SPARQLWrapper
 ```
-## run to fetch results from the dbpedia
+## Run to fetch results from the dbpedia
 ```
 python test_dbpedia_query.py
 ```
